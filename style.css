@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Boldonse&family=Poppins&display=swap');
+
+body {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.top-contactus {
+    background-color: hsl(0, 0%, 0%);
+    width: 100%;
+    height: auto;
+    padding: 10px 0px;
+    margin: 0px;
+}
+
+.top-mailto {
+    display: flex;
+    align-items: center;
+}
+
+.top-mailto i {
+    color: #ffffff;
+    font-weight: 500;
+
+}
+
+.top-mailto p {
+    color: #ffffffeb;
+    font-size: 0.8rem;
+    margin: 0px 7px;
+}
+
+.socialmedia-icon i {
+    color: #ffffff;
+    font-size: 1.1rem;
+    margin: 0px 10px;
+
+}
+
+.contactus-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dropdown-toggle::after {
+    display: inline-block;
+    margin-left: .255em;
+    vertical-align: .255em;
+    content: none;
+    border-top: .3em solid;
+    border-right: .3em solid transparent;
+    border-bottom: 0;
+    border-left: .3em solid transparent;
+}
+
+.dropdown-btn {
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 0.8rem;
+    display: flex;
+    align-items: center;
+    letter-spacing: 1.1px;
+}
+
+.dropdown-btn i {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.dropdown-menu {
+    background-color: black;
+}
+
+.dropdown-item:hover {
+    background-color: #c70101;
+}
+
+.nav-item {
+    display: flex;
+    column-gap: 20px;
+}
+
+.nav-logo h1 {
+    font-size: 1.7rem;
+    color: #f42800;
+    font-family: "Boldonse", system-ui;
+    font-weight: 500;
+    font-style: normal;
+    text-transform: uppercase;
+    margin-bottom: -53px;
+    word-spacing: -5px;
+    display: flex;
+    align-items: center;
+}
+
+.nav-logo span {
+    font-size: 2.7rem;
+    color: rgb(255, 255, 255);
+    font-family: "Boldonse", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: uppercase;
+}
+
+.nav-logo i {
+    color: #ffffff;
+    font-size: 2.7rem;
+    animation-name: rotate;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.top-nav {
+    background-color: #c70101;
+    padding: 15px 0px;
+}
+
+.top-nav-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.fairplay {
+    background-image: url(/images/first\ banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: inset 0px 0px 293px 450px #0000008c;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+
+.soccas-content h4 {
+    color: #ffffff;
+    text-transform: capitalize;
+    font-size: 1.5rem;
+    letter-spacing: 1.4px;
+}
+
+.soccas-content h1 {
+    color: #ffffff;
+    text-transform: capitalize;
+    font-weight: bolder;
+    font-size: 4.4rem;
+}
+
+.soccas-content span {
+    color: #c70101;
+}
+
+.soccas-content button {
+    padding: 11px 25px;
+    background-color: #c70101;
+    border: 1px solid #c70101;
+    color: #ffffff;
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-size: 1rem;
+    letter-spacing: 1px;
+}
+.result-top-left-content {
+    width: 300px;
+}
+.result-top-left-content p{
+    color: #c70101;
+    text-transform: capitalize;
+}
+.result-top-left-content h1{
+    color: black;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+.result-top-left-content button {
+    padding: 11px 25px;
+    background-color: #c70101;
+    border: 1px solid #c70101;
+    color: #ffffffce;
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-size: 0.7rem;
+    letter-spacing: 1px;  
+    margin: 20px 0px; 
+}
+.result-and-match {
+    background-color: #f9f9f9;
+    width: 100%;
+    height: 100%;
+}
+.match-score h2 {
+    color: #c70101;
+    font-weight: 600;
+}
