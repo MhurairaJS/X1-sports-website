@@ -1,0 +1,76 @@
+@media (max-width: 375px) {}
+
+@media (max-width: 750px) {
+    .result-top-left-content {
+        width: 100%;
+    }
+    .match{
+        padding: 10px;
+
+    }
+    
+.match-score-mid>h1 {
+        font-size: 1.9rem;
+    }
+    .match-score h2{
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 900px) {
+    .soccas-content h4 {
+        font-size: 2vw;
+    }
+
+    .soccas-content button {
+        padding: 1.3vw 2.9vw;
+        font-size: 1.7vw;
+
+    }
+
+    .nav-logo h1 {
+        font-size: 3vw;
+    }
+
+    .nav-logo span {
+        font-size: 5vw;
+    }
+
+    .nav-logo i {
+        font-size: 4.4vw;
+    }
+
+    .hamburger i {
+        font-size: 4vw;
+    }
+}
+
+@media (max-width: 1230px) {
+    .nav-item {
+        display: none;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    .top-nav-content {
+        justify-content: space-between;
+    }
+
+    .nav-logo h1 {
+        margin-bottom: 0px;
+    }
+
+    .top-nav {
+        padding: 0px;
+    }
+
+    .fairplay {
+        height: 60vw;
+    }
+
+    .soccas-content h1 {
+        font-size: 6.2vw;
+    }
+}
