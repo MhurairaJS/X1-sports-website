@@ -85,6 +85,16 @@
     .upcoming-match-score img {
         width: 12vw;
     }
+    .our-gallery-content h1{
+        font-size: 7vw;
+        margin-bottom: 4vw;
+    }
+    .our-gallery{
+        padding-top: 8vw;
+    }
+    .our-gallery-content h4{
+        font-size: 2.1vw;
+    }
 }
 
 @media (max-width: 900px) {
