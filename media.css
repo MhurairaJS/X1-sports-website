@@ -1,19 +1,89 @@
-@media (max-width: 375px) {}
+@media (max-width: 375px) {
+
+    .leagues-content p {
+        font-size: 0.8rem;
+    }
+}
 
 @media (max-width: 750px) {
+
     .result-top-left-content {
         width: 100%;
     }
-    .match{
+
+    .match {
         padding: 10px;
 
     }
-    
-.match-score-mid>h1 {
+
+    .match-score-mid>h1 {
         font-size: 1.9rem;
     }
-    .match-score h2{
+
+    .match-score h2 {
         font-size: 1rem;
+    }
+
+    .spirit-football-content {
+        width: 100%;
+        margin: 0px;
+    }
+
+    .spirit-football-content h1 {
+        font-size: 1.7rem;
+    }
+
+    .our-team {
+        height: 45vw;
+    }
+
+    .our-team h1 {
+        font-size: 1.9rem;
+    }
+
+    .spirit-football-img2 {
+        width: 43vw;
+    }
+
+    .spirit-football-img3 {
+        width: 43vw;
+    }
+
+    .leagues-content h1 {
+        font-size: 1.7rem;
+    }
+
+    .leagues {
+        justify-content: start;
+    }
+
+    .tournament {
+        padding: 0px;
+    }
+
+    .leagues-content p {
+        width: 100%;
+    }
+
+    .upcoming-match-team {
+        width: 70vw;
+        padding: 7vw;
+    }
+
+    .upcoming-score-mid p {
+        font-size: 1.6vw;
+    }
+
+    .upcoming-score-mid h1 {
+        font-size: 9vw;
+    }
+
+    .upcoming-match-score h2 {
+        font-size: 3.4vw;
+    }
+
+    .upcoming-match-score img {
+        width: 12vw;
     }
 }
 
