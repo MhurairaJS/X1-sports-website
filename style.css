@@ -557,3 +557,30 @@ a {
 .our-gallery-content img {
     width: 100%;
 }
+.championship {
+    background: linear-gradient(117deg, #c70101 51%, #b80000 51%);
+}
+.championship-league {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: end;
+    flex-wrap: wrap;
+}
+.premiere-league-img img {
+    filter: drop-shadow(0px 5px 11px rgb(255, 255, 255));
+}
+.premiere-league {
+    text-align: center;
+}
+.premiere-league h1 {
+    color: #ffffff;
+    font-size: 2rem;
+    font-weight: bolder;
+    margin: 5px 0px;
+}
+.premiere-league p {
+    color: #fffffffa;
+    text-transform: capitalize;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
