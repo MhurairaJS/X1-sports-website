@@ -102,6 +102,20 @@
     .championship-league {
         justify-content: center;
     }
+
+    .keep-update-img1 {
+        width: 100%;
+    }
+
+    .keep-update-img2 {
+        margin: 0px;
+        width: 100%;
+    }
+
+    .footer-content {
+        justify-content: space-between;
+    }
+
 }
 
 @media (max-width: 900px) {
