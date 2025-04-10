@@ -721,13 +721,14 @@ a {
     color: #ffffff;
     font-weight: 600;
     margin: 0px 0px 33px 0px;
+    font-size: 1.7rem;
 }
 
 .company a {
     color: #ffffffde;
     text-decoration: none;
     list-style: none;
-    font-size: 1rem;
+    font-size: 0.9rem;
     text-transform: capitalize;
     font-weight: 600;
 }

@@ -9,6 +9,7 @@
 
     .result-top-left-content {
         width: 100%;
+        text-align: center;
     }
 
     .match {
@@ -27,6 +28,11 @@
     .spirit-football-content {
         width: 100%;
         margin: 0px;
+        text-align: center;
+    }
+
+    .leagues-content {
+        text-align: center;
     }
 
     .spirit-football-content h1 {
@@ -54,7 +60,7 @@
     }
 
     .leagues {
-        justify-content: start;
+        justify-content: center;
     }
 
     .tournament {
@@ -112,8 +118,23 @@
         width: 100%;
     }
 
+    .keep-update h1 {
+        font-size: 1.7rem;
+    }
+
+    .keep-update {
+        text-align: center;
+    }
+
+    .keep-update button {
+        display: inline;
+    }
+
     .footer-content {
         justify-content: space-between;
+    }
+    .email{
+        text-align: center;
     }
 
 }
