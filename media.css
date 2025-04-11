@@ -142,7 +142,16 @@
     .email {
         text-align: center;
     }
-
+    .aboutus-content1>h1{
+        font-size: 4vw;
+        text-align: center;
+    }
+    .nav-logo img {
+        width: 30vw;
+    }
+    .aboutus-content2 {
+        height: 48vw;
+    }
 }
 
 @media (max-width: 900px) {
